@@ -1,0 +1,50 @@
+THIS FEEDBACK IS FOR YOUR ONTIME SUBMISSION ONLY.
+IF YOU HAD A LATE SUBSMISSION, WE WILL UPDATE YOUR FEEBACK SHORTLY.
+
+Automatic Grading:  
+(0.5/0.5) - First merge into main
+(1/1) - Second merge into main
+(1/1) - Third merge into main
+(1/1) - Fourth merge into main
+(1/1) - Makefile has runServer target  
+(1/1) - Makefile has clean target  
+(1/1) - Makefile's runTests runs JUnit5 test runner  
+(1/1) - midweek submission made by the midweek deadline
+
+Manual Grading of Responses to Reviews:  
+(1/1) - for each of the 3 suggestions from review 1, the response indicates if they were implemented or lists a reasonable argument for why they were not implemented  
+(0.5/0.5) - the response lists a commit id for each implemented suggestion from review 1  
+(1/1) - for each of the 3 suggestions from review 2, the response indicates if they were implemented or lists a reasonable argument for why they were not implemented  
+(0.5/0.5) - the response lists a commit id for each implemented suggestion from review 2  
+(1/1) - for each of the 3 suggestions from review 3, the response indicates if they were implemented or lists a reasonable argument for why they were not implemented  
+(0.5/0.5) - the response lists a commit id for each implemented suggestion from review 3  
+  
+Feedback from grader:   
+  
+Manual Grading Video:  
+(1/1) - video includes voice narration  
+(1/1) - video shows running app, or compiling and running tests if app is not working  
+(1/1) - video demonstrates both functions of the app, or describes why demonstrating them is not possible  
+(1/1) - all demonstrations in the video are clearly visible  
+  
+Feedback from grader:   
+  
+Manual Grading Tests:
+(1/1) - first test can pass/fail under different conditions and is not a duplicate of another test  
+(1/1) - second test can pass/fail under different conditions and is not a duplicate of another test  
+(1/1) - third test can pass/fail under different conditions and is not a duplicate of another test  
+(1/1) - fourth test can pass/fail under different conditions and is not a duplicate of another test  
+  
+Feedback from grader:   
+
+Please read the feedback above carefully. For the grading criteria that your submission did not pass, we recommend the following:  
+
+– Carefully read the details about the failed requirement and compare them to the description of these requirements within the write-up  
+
+– Review the reported defect in your submission to see whether it is something that you are able to repair: either alone or with the help of course staff  
+
+- Double check that the work you are reviewing matches what was in your most recent submission before the associated deadline: you can use cs400 get to retrieve a copy of your most recent submission.  And cs400 check can be used to confirm the date and time of that submission.  
+
+If you suspect that there might have been a grading mistake, please submit a regrade request to this form within two weeks after this feedback is released: https://forms.gle/cacj64U3LpayKhDv9
+
+TOTAL:  20.0 / 20.0

@@ -1,0 +1,50 @@
+import java.io.IOException;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+import java.util.List;
+
+public class BackendTests {
+  /**
+   * Tests the loadGraphData Backend method
+   */
+  @Test
+  public void roleTest1(){
+    Graph_Placeholder graph = new Graph_Placeholder();
+    Backend backend = new Backend(graph);
+    try {
+      backend.loadGraphData("campus.dot");
+    }catch(Exception e){
+      Assertions.assertTrue(false);
+    }
+    Assertions.assertTrue(true);
+  }
+  /**
+  * Tests the getListOfAllLocations Backend method
+  */
+  @Test
+  public void roleTest2(){
+    Graph_Placeholder graph = new Graph_Placeholder();
+    Backend backend = new Backend(graph);
+    //There should be three locations in the graph
+    List<String> result = backend.getListOfAllLocations();
+    Assertions.assertTrue(result.size() == 3);
+    Assertions.assertTrue(result.get(0).equals("Union South"));
+    Assertions.assertTrue(result.get(1).equals("Computer Sciences and Statistics"));
+    Assertions.assertTrue(result.get(2).equals("Atmospheric, Oceanic and Space Sciences"));
+  }
+  /**
+  * Tests the findLocationsOnShortestPath Backend method
+  */
+  @Test
+  public void roleTest3(){
+    Graph_Placeholder graph = new Graph_Placeholder();
+    Backend backend = new Backend(graph);
+    List<String> result = backend.findLocationsOnShortestPath("Union South", "Atmospheric, Oceanic and Space Sciences");
+    //Should return the only three locations in order
+    Assertions.assertTrue(result.size() == 3);
+    Assertions.assertTrue(result.get(0).equals("Union South"));
+    Assertions.assertTrue(result.get(1).equals("Computer Sciences and Statistics"));
+    Assertions.assertTrue(result.get(2).equals("Atmospheric, Oceanic and Space Sciences"));
+  }  
+
+}

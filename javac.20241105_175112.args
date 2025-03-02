@@ -1,0 +1,3 @@
+-cp
+.:../junit5.jar
+BackendTests.java
